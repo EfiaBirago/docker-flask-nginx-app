@@ -4,14 +4,24 @@ A simple web application with Flask backend and NGINX frontend, containerized wi
 The goal it to automate multi-container app building using Docker Compose.
 
 ## Project Structure
-my-docker-app/
-├── backend/ # Flask API
-│ ├── app.py # Flask application
+docker-compose-activity/
+
+├── backend/ 
+
+│ ├── app.py
+
 │ ├── requirements.txt
+
 │ └── Dockerfile
+
 ├── frontend/ # NGINX
+
+  └──Dockerfile
+  
 │ └── index.html
+
 ├── docker-compose.yml
+
 └── README.md # This file
 
 
