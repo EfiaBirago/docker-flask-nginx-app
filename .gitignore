@@ -1,0 +1,12 @@
+# .gitignore contents
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Node.js (if applicable)
+node_modules/
